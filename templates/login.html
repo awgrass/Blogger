@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="/static/style.css" />
+
+</head>
+<body>
+<form method="post">
+	<fieldset>
+  <br>
+  <label>
+  Username:
+  <input type="text" name="username" value="{{username}}">
+  </label>
+  <br>
+  <label>
+  Password:
+  <input type="password" name="password" value="{{password}}">
+  </label>
+  <br>
+  <br>
+  <div style="color: red">{{error}}</div>
+  <input type="submit">
+  </fieldset>
+  <br>
+  <a href="/blog/signup">Need to sign up?</a>
+</form>
+</body>

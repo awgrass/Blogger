@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<header>
+<a href="/blog/logout">Logout</a>
+</header>
+<head>
+  <link type="text/css" rel="stylesheet" href="/static/style.css" />
+
+</head>
+<body>
+<form method="post">
+<h1>Welcome to Wigglepee, {{username}}!</h1>
+<a href="/blog/newpost">Make a post!</a>
+<br>
+<br>
+  <div id="content">
+{% for entry in db_entries %} 
+{{ entry.render() | safe }} 
+<br><br>
+{% endfor %}
+</div>
+
+</form>
+
+
+</form>
+</html>

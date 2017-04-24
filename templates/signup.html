@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="/static/style.css" />
+
+</head>
+<body>
+<form method="post">
+	<fieldset>
+  <br>
+  <label>
+  Username:
+  <input type="text" name="username" value="{{username}}">
+  </label>
+  <br>
+  <label>
+  Password:
+  <input type="password" name="password" value="{{password}}">
+  </label>
+  <br>
+  <label>
+  Verify:
+  <input type="password" name="verify" value="{{verify}}">
+  </label>
+  <br>
+  <label>
+  Email:
+  <input type="email" name="email" value="{{email}}">  
+  <br>
+  </label>
+  <br>
+  <div style="color: red">{{error}}</div>
+  <input type="submit">
+  </fieldset>
+  <br>
+  <a href="/blog/login">Have already an account?</a>
+</form>
+</body>
