@@ -1,4 +1,4 @@
-# SimpleBlog
+# Blogger
 
 This is a basic blog site I implemented while attending an Udacity course. 
 My intention was to learn more about the web and its development, moreover to get known to the tools used in modern implementations. 
